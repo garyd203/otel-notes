@@ -23,6 +23,11 @@ Collector
   - You can add a processing pipeline to it, if you want to pre-process your data before sending it to your APM
   - You can run a copy inside your VPC if you have network restrictions on outbound traffic
 
+"Auto" instrumentation. otel doco often refers to manual instrumentation vs. automatic instrumentation. This can mean *three* things (not two)
+1. Write new code that creates spans and events within your application codebase. Thsi is called manual instrumentation
+2. Use plugins for libraries (eg. web server frameworks and databse clients) to create spans and propagate context. This might be called manual instrumentation or auto-instrumentation, or might be contrasted with either or both of the above. 🤷
+3. A magic wrapper for your application that auto-detects your libraries and instruments them (ie. a scan-and-patch variation of (2) above). This is called auto-instrumentation
+
 ## WHat's an APM I can use
 * https://honeycomb.io
 * SignalFX (now part of Splunk)
