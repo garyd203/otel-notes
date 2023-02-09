@@ -1,7 +1,11 @@
 # Notes on implementing open-telemetry instrumentation in Python
 
 ## What is open-telemetry
-open-telemetry is a open-source framnework for instrumenting software applications and systems. It's build on the earlier open-tracing and open-census projects.
+open-telemetry is a open-source framnework for instrumenting software applications and systems. It's built on the earlier open-tracing and open-census projects.
+
+The name is a bit awkward (although at least you know what it does, unlike open-census), and so it's often abbreviated to "otel" in natural language or "OT" in variable names
+
+open-telemetry is a CNCF project, like kubernetes, so you can expect lots of hype and complex YAML files ;-)
 
 
 # Unstructured Notes
