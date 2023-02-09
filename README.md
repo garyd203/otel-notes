@@ -12,6 +12,7 @@ open-telemetry is a open-source framnework for instrumenting software applicatio
 * https://opentelemetry-python-contrib.readthedocs.io/ Python instrumentation for 3rd party libraries
 * https://aws.amazon.com/blogs/opensource/auto-instrumenting-a-python-application-with-an-aws-distro-for-opentelemetry-lambda-layer/
 * https://www.aspecto.io/blog/opentelemetry-collector-processors/
+* https://signoz.io/blog/opentelemetry-logs
 
 
 ## Lessons Learned
