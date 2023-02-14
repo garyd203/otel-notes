@@ -17,6 +17,7 @@ open-telemetry is a CNCF project, like kubernetes, so you can expect lots of hyp
 * https://aws.amazon.com/blogs/opensource/auto-instrumenting-a-python-application-with-an-aws-distro-for-opentelemetry-lambda-layer/
 * https://www.aspecto.io/blog/opentelemetry-collector-processors/
 * https://signoz.io/blog/opentelemetry-logs
+* https://pypi.org/project/opentelemetry_wrapper/
 
 
 ## Lessons Learned
