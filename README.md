@@ -33,8 +33,14 @@ Collector
 2. Use plugins for libraries (eg. web server frameworks and databse clients) to create spans and propagate context. This might be called manual instrumentation or auto-instrumentation, or might be contrasted with either or both of the above. 🤷
 3. A magic wrapper for your application that auto-detects your libraries and instruments them (ie. a scan-and-patch variation of (2) above). This is called auto-instrumentation
 
-## WHat's an APM I can use
-* https://honeycomb.io
-* SignalFX (now part of Splunk)
-* https://lightstep.com/
+## What's an APM I can use
+See https://aws-otel.github.io/docs/components/otlp-exporter for a partial list
+
+* AppDynamics
 * https://www.aspecto.io/
+* DynaTrace
+* https://honeycomb.io
+* https://lightstep.com/
+* New Relic
+* SignalFX (now part of Splunk)
+* Sumo Logic
